@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TCC</string>
+    <string name="entrar">Entrar</string>
+    <string name="text_login">Crie sua conta aqui!</string>
+    <string name="text_cadastro">Cadastre-se</string>
+    <string name="botao_cadastro">Cadastrar</string>
+    <string name="tela_pesquisa1">Pesquise pela atividade</string>
+    <string name="tela_pesquisa2">que deseja:</string>
+    <string name="botao_pesquisa">Pesquisar</string>
+
+</resources>

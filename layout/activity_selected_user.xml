@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_row"
+    android:padding="15dp"
+    tools:context=".SelectedUser">
+
+    <TextView
+        android:id="@+id/nome"
+        android:layout_marginTop="60sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/atividades"
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/valor"
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/aparelhos"
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:textColor="@color/white"
+        />
+
+
+
+    <TextView
+        android:id="@+id/telefone"
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_telefone"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/instagram"
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_insta"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:textColor="@color/white"
+        />
+
+
+    <TextView
+        android:id="@+id/email_telaSelected"
+        android:layout_marginTop="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/email_branco"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:textColor="@color/white"
+        />
+
+
+
+    <TextView
+        android:id="@+id/endereço"
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_localizacao"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:textColor="@color/white"
+        />
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
